@@ -1,9 +1,11 @@
 ## 介绍
-Android滚动文字内容滚动
-包括:内容分多行滚动,内容只滚动单行,内容单行显示不下自带省略号
+####Android跑马灯式文字滚动
+内容分多行滚动\<br>内容只滚动单行\<br>内容单行显示不下自带省略号
+
 
 ## Demo
 ![demo](https://github.com/pirrip90/ScrollTextView/blob/master/screenshot/scrolltextview.gif)
+
 
 ## 方法属性
 |方法名|参数|描述|
@@ -13,8 +15,8 @@ Android滚动文字内容滚动
 | singleLine | boolean |是否单行(默认为单行)
 | ellipsis | boolean |单行显示不下时是否带省略号(只在单行模式下有效,默认为单行显示不下带省略号)
 
-## 方法
 
+## 方法
 |属性名|参数类型|描述|
 |:---:|:---:|:---:|
 | setTextContent | List<String> list |设置滚动内容
@@ -24,8 +26,8 @@ Android滚动文字内容滚动
 | startTextScroll | 无 |文字开始自动滚动,初始化会自动调用该方法(适当的时机调用)
 | stopTextScroll | 无 |文字暂停滚动(适当的时机调用)
 
-## xml使用例子
 
+## xml使用例子
 ```xml
     <com.xubo.scrolltextview.ScrollTextView
         xmlns:scroll_text="http://schemas.android.com/apk/res-auto"
@@ -38,6 +40,7 @@ Android滚动文字内容滚动
         scroll_text:textColor="@android:color/white"
         scroll_text:textSize="14sp" />
 ```
+
 
 ## 使用
 #### gradle
