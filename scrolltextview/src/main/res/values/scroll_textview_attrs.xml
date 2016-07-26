@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="ScrollTextLayout">
+
+        <!-- 文字颜色(默认颜色为黑色) -->
+        <attr name="textColor" format="color" />
+        
+        <!-- 文字大小(默认文字大小为16sp) -->
+        <attr name="textSize" format="dimension" />
+        
+        <!-- 是否单行(默认为单行) -->
+        <attr name="singleLine" format="boolean" />
+        
+        <!-- 单行显示不下时是否带省略号(只在单行模式下有效,默认为单行显示不下带省略号) -->
+        <attr name="ellipsis" format="boolean" />
+    </declare-styleable>
+
+</resources>
